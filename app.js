@@ -15,7 +15,7 @@ const { config } = require('./config');
 
 var client_id = config.clientID; // Your client id
 var client_secret = config.clientSecret; // Your secret
-var redirect_uri = 'http://localhost:3000/callback'; // Your redirect uri
+var redirect_uri = config.redirectUri; // Your redirect uri
 
 /**
  * Generates a random string containing numbers and letters
