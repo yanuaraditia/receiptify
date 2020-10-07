@@ -19,7 +19,7 @@ To do so, go to [your Spotify for Developers Dashboard](https://beta.developer.s
 * http://localhost:3000 (needed for the implicit grant flow)
 * http://localhost:3000/callback
 
-Once you have created your app, load the `client_id`, `redirect_uri` and `client_secret` into a `config.js` file.
+Once you have created your app, load the `clientID`, `redirectUri` and `clientSecret` into a `config.js` file.
 
 In order to run the app, open the folder, and run its `app.js` file:
 
